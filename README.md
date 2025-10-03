@@ -68,4 +68,4 @@ You can also view and test the API online using the Postman documentation: [Moto
 
 ## Authors ✒️
 
-- **Jéremy Paul Pacheco Oña** - Initial Work & Documentation - [GitHub](https://github.com/YeremiP)
+- **Jéremy Paul Pacheco Oña** - Initial Work & Documentation - [YeremiP](https://github.com/YeremiP)
