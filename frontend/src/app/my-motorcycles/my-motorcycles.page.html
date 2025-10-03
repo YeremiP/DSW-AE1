@@ -1,68 +1,3 @@
-<!-- <ion-header>
-  <ion-toolbar>
-    <ion-title>MotoData</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-  <ion-header *ngFor="let m of motorcycles">
-    <ion-label>
-      <h1> {{m.brand}}</h1>
-      <p>{{m.model}}</p>
-    </ion-label>
-  </ion-header>
-  <ion-button expand="block" (click)="gotoMyHomePage()">Atras</ion-button>
-</ion-content> -->
-
-<!-- <ion-header>
-  <ion-toolbar>
-    <ion-title>MotoData</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-  <ion-list>
-    <ion-item *ngFor="let m of motorcycles">
-     <ion-label>
-       <h2>{{ m.brand }}</h2> 
-      <p>{{ m.model }}</p>
-     </ion-label>
-    </ion-item>
-  </ion-list>
-
-  <ion-button expand="block" (click)="gotoMyHomePage()">Atras</ion-button>
-  
-</ion-content> -->
-
-<!-- <ion-header>
-  <ion-toolbar>
-    <ion-title>MotoData</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content class="ion-padding">
-  <ion-button expand="block" routerLink="/add-motorcycle">
-    Añadir nueva moto
-  </ion-button>
-
-  <ion-list *ngIf="motorcycles.length > 0; else noData">
-    <ion-item *ngFor="let m of motorcycles">
-      <ion-label>
-        <h2>{{ m.brand }}</h2>
-        <p>{{ m.model }}</p>
-      </ion-label>
-    </ion-item>
-  </ion-list>
-
-  <ng-template #noData>
-    <p class="ion-text-center">No tienes motos registradas</p>
-  </ng-template>
-
-  <ion-button expand="block" (click)="gotoMyHomePage()">
-    Atrás
-  </ion-button>
-</ion-content> -->
-
 <ion-header>
   <ion-toolbar>
     <ion-title>MotoData</ion-title>
@@ -82,7 +17,7 @@
         slot="end"
         (click)="editMotorcycle(m.id)"
       >
-        Editar
+        Edit
       </ion-button>
       <ion-button
         color="danger"
@@ -90,7 +25,7 @@
         slot="end"
         (click)="deleteMotorcycle(m.id)"
       >
-        Eliminar
+        Delete
       </ion-button>
       
     </ion-item>
