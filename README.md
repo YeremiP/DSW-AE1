@@ -25,32 +25,23 @@ Before installing the project, make sure you have installed:
 
   ```bash
   git clone https://github.com/YeremiP/DSW-AE1.git
-  ```
-  ```bash
+  
   cd DSW-AE1
-```
-```bash
+
   npm i _g @ionic/cli
-```
-```bash
+
   cd backend
-```
-```bash
+
   mpm i
-```
-```bash
+
   node index.js
-```
-```bash
+
   cd ..
-```
-```bash
+
   cd frontend
-```
-```bash
+
   npm i
-```
-```bash
+
   ionic serve
 ```
 
